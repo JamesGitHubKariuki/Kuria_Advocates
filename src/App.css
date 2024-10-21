@@ -1,0 +1,630 @@
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+body{
+    max-width: 100%;
+    min-height: 100vh;
+    font-family: "EB Garamond", serif;  
+}
+
+header{
+    display: flex;
+    justify-content:space-between;
+    max-width: 100%;
+    position: sticky;
+}
+
+navbar{
+    position: sticky;
+}
+
+header img{
+   max-width: 30%;
+}
+
+.logo{
+    margin: 0;
+}
+
+nav{
+    display: flex; 
+   text-align: center;
+   margin-right: 30%;
+   padding-top: 10px;
+   position: sticky;
+}
+
+.contact{
+    display: flex;
+    padding: 10px 50px 0; 
+}
+
+.cont{
+    width: 50px;
+    height: 40px;
+}
+
+.phone{
+    max-width: 25px;
+    min-height: 30px;
+    padding: 5px 10px 0;
+}
+
+nav ul li{
+    list-style-type: none; 
+}
+
+ nav ul li a{
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    padding:10px 10px 0; 
+    padding-right: 50%;color: #000;
+}
+
+.row1, .row2, .row3, .row4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.row1, .row2, .row3, .row4, .hire, .cust p{
+    font-size: 20px;
+
+}
+ .hire, .cust h4, .cust h5, .hire h4{
+    font-size: 20px;
+}
+
+.about, .form, .cust, .hero-actual, .hire, .location, .jobs{
+    padding: 25px 15px 10px;
+}
+
+.about{
+    margin-top: 10px;
+}
+
+.about-btn a:hover{
+background-color: rgb(236, 172, 93);
+}
+
+.abth3{
+    margin-top: 30px;
+}
+
+.jobsnav{
+    padding-bottom: 30px;
+}
+
+video{
+    width: 400px;
+    height: '';
+    border-radius: 15px;
+}
+
+li a:hover{
+    background: #B4D4D6;
+    color: #000;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+
+
+.hero-actual{
+    width:100%;
+    min-height: 250px;
+    background-color: #B4D4D6;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0 50px;
+    min-height: 300px;
+}
+
+.hero p{
+    font-size: 24px;
+    margin-top: 15px;
+}
+
+.btn{
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    color: #fff;
+    background-color: maroon;
+    font-size: 18px;
+    position:'';
+}
+
+.btn button{
+    display: inline-block;
+}
+
+
+.about{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-txt{
+padding-left: 10px;
+}
+
+.about-img img{
+    border-radius: 15px;
+    width:  600px;
+    height: 300px;
+}
+
+.about a{
+    text-decoration: none;
+    color: #fff;
+    background: #A36C2C;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.about-btn{
+    margin-top: 20px;
+}
+
+.abtnav{
+    display: flex; 
+    padding: 0 15px 15px;
+    margin-bottom: 50px;
+}
+
+.abtnav-txt{
+padding-left: 10px;
+}
+
+.abtnav-img img{
+    width: 500px;
+    height: 350px;
+    border-radius: 15px;
+}
+
+.about-actual, .about, .abtnav, .about-txt, .jobs,  .location, .form h3, .hero h2{
+    font-size: 20px;
+}
+
+.about-txt, .hero, .location-txt, .jobs p{
+    font-size: 20px;
+}
+
+h3{
+    font-size: 24px;
+}
+
+.about-img img{
+    border-radius: 15px;
+    width:  600px;
+    height: 300px;
+}
+
+.about a{
+    text-decoration: none;
+    color: #fff;
+    background: #A36C2C;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.about-btn{
+    margin-top: 20px;
+}
+
+.abtnav{
+    display: flex; 
+    padding: 0 15px 15px;
+    margin-bottom: 50px;
+}
+
+.abtnav-txt{
+padding-left: 10px;
+}
+
+.abtnav-img img{
+    width: 500px;
+    height: 350px;
+    border-radius: 15px;
+}
+
+.job-actual{
+    display: flex; 
+}
+
+.job-1, .job-2, .job-3{
+    display: flex;
+    justify-content: space-between;
+}
+
+.job-1 img, .job-2 img, .job-3 img{
+    max-width: 100% ;
+    min-height: 200px;
+    border-radius: 15px;
+}
+
+ .job-right{
+    padding: 0 30px 0;
+}
+
+.cust h3{
+    margin-bottom: 10px;
+}
+/* 
+.cust-txt2 {
+    margin-top: 5px;
+}
+
+.cust-rating{
+    padding-top: 5px;
+} */
+
+.icon{
+    max-width: 25px;
+    min-height: 30px;
+    color: silver;
+}
+
+.h-img img{
+    max-width: 300px;
+    min-height: 350px;
+    border-radius: 15px;
+}
+
+
+.full-star{
+    color: gold;
+}
+
+.location-img img{
+   max-width: 600px;
+   min-height: 500px;
+   border-radius: 15px;
+}
+
+.location-txt{
+    margin-top: '';
+   
+}
+
+.location-txt a{
+    text-decoration: none;
+    border: 2px solid maroon;
+    color: rgb(59, 59, 226);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.location-txt a:hover{
+    color: rgb(40, 160, 207);
+    border: 2px solid rgb(226, 99, 99);
+}
+
+.title, .located, .building, .phone-2, .gmail{
+    margin-top: 10px;
+}
+
+.gmail{
+    margin-bottom: 20px;
+}
+
+form input{
+    width: 400px;
+    height: 50px;
+}
+
+form textarea{
+    width:400px;
+    height: 150px;
+}
+    
+form label{
+    font-weight: bold;
+}
+
+form .btn{
+    margin-top: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    color: #fff;
+    background-color: green;
+    font-size: 18px;
+}
+
+form .btn:hover{
+    background-color: rgb(97, 236, 97);
+}
+
+.load{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 100px;
+}
+
+.otherp{
+    margin-top: 10px;
+}
+
+.otherp p{
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.abth3 h3{
+    font-size: 24px;
+    padding-left: 10px;
+}
+
+.otherp a{
+   text-decoration: none;
+   border: 2px solid maroon;
+   color: rgb(59, 59, 226);
+   padding: 5px;
+   border-radius: 10px;
+   
+}
+
+.otherp a:hover{
+    color: rgb(40, 160, 207);
+   border: 2px solid rgb(226, 99, 99);
+}
+
+.hsv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 15px 10px 10px;
+}
+
+.hvd video{
+   border-radius: 10px;
+}
+
+ @media (max-width: 320px), (max-width: 375px),  (max-width: 425px) {
+    header {
+        align-items: center;
+        text-align: center;
+        margin-left: auto;    
+    }
+        header .logo img{
+           max-width: 80px;
+        }
+        header nav li a{
+           font-size: small;
+           
+        }
+        header nav {
+           font-size: small;
+           margin-inline: auto;
+           margin-left: auto;
+           padding-left: 50px;
+        }
+        header .contact{
+            font-size: smaller;
+          margin-left: auto;
+        }
+
+header img{
+    max-width: 80px;
+}
+
+.hero-actual{
+width: 100%;
+}
+
+.hero{
+text-align: center;
+font-size: 16px;
+}
+
+.hvd{
+    margin-top: 10px;
+    max-width: 300px;
+}
+
+.about{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.about img{
+width: 300px;
+}
+/* 
+.about-txt p, .about-btn a{
+font-size: 20px;
+}
+
+.abth3 h3{
+    font-size: 20px;
+} */
+
+.job-actual{
+    display: flex;
+   flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.otherp a{
+ margin-top:10px ;
+}
+
+.location-img img{
+    width: 300px;
+}
+
+form input{
+    width: 300px;
+    height: 50px;
+}
+
+form textarea{
+    width:300px;
+    height: 100px;
+}
+
+.vd video{
+    width: 300px;
+}
+
+.ld h3{
+    font-size: small;
+}
+ }  
+
+ 
+ @media (max-width: 600px), (max-width: 768px){
+header {
+        align-items: center;
+        text-align: center;
+        margin-left: auto;    
+    }
+        header .logo img{
+           max-width: 80px;
+        }
+        header nav li a{
+           font-size: small;
+           
+        }
+        header nav {
+           font-size: small;
+           margin-inline: auto;
+           margin-left: auto;
+           padding-left: 50px;
+        }
+        header .contact{
+            font-size: smaller;
+          margin-left: auto;
+        }
+        
+header img{
+    max-width: 80px;
+}
+
+
+.hero-actual{
+width: 100%;
+}
+
+.hero{
+text-align: center;
+align-items: center;
+}
+
+.hsv{
+  display: flex;
+  flex-direction: column;
+}
+
+.hvd{
+    margin-top: 10px;
+    max-width: 300px;
+}
+
+.about{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.about img{
+width: 400px;
+}
+/* 
+.about-txt p, .about-btn a{
+font-size: 20px;
+}
+
+.abth3 h3{
+    font-size: 20px;
+} */
+
+.job-actual{
+    display: flex;
+   flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.otherp a{
+ margin-top:10px ;
+}
+
+.location-img img{
+    width: 400px;
+}
+
+form input{
+    width: 300px;
+    height: 50px;
+}
+
+form textarea{
+    width:300px;
+    height: 100px;
+}
+
+.vd video{
+    width: 300px;
+}
+ }   
+ 
+ 
+ @media (max-width: 600px){
+    .about-img img, .location-img img{
+        width: 500px;
+    }
+
+    .abtnav-img img, .about-img img{
+        width: 500px;
+    }
+
+    .ld h3{
+        font-size: 20px;
+    }
+ }
+
+ @media (max-width: 768px){
+    .about-img img, .location-img img{
+        width: 620px;
+    }
+
+    .abtnav-img img, .about-img img{
+        width: 620px;
+    }
+ }
+
+ @media (max-width: 1024px){
+    .hsv{
+        display: flex;
+        flex-direction: column;
+      }
+
+    .hsv video{
+     width: 600px;
+      }
+
+      .hvd{
+        margin-top: 10px;
+      }
+
+      .about-img img, .abtnav-img img{
+        height: 525px;
+      }
+ }
+
+ 
